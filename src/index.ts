@@ -7,7 +7,7 @@ export interface Config { }
 export const Config: Schema<Config> = Schema.object({})
 export function apply(ctx: Context) {
 
-  ctx.command('du <message>')
+  ctx.command('du <message> 恶魔轮盘赌小游戏，需要两个玩家')
     .action((_, message) => {
       let stop = 0;
       //手铐

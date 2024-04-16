@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-roulette",
-  "description": "",
-  "version": "0.0.1",
+  "description": "恶魔轮盘赌,为了平衡微调了一下规则，游戏开始时有规则说明",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,17 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/muchunxue/koishi-mcx-Buckshot-Roulette",
   "keywords": [
     "chatbot",
     "koishi",
+    "game",
+    "游戏",
+    "恶魔轮盘赌",
     "plugin"
   ],
   "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.17.4"
+    "koishi": "^4.15.1"
   }
 }
